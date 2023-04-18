@@ -33,6 +33,7 @@ h2, h4, p {
 }
 
 #bottom-section {
+  color: white;
   display: flex;
   flex-direction: column;
   width: 100%;
