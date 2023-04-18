@@ -119,7 +119,7 @@ ul {
   
 }
 
-@media all and (min-width: 576px) {
+@media (min-width: 576px) {
   #card {
     width: 550px;
     height: 400px;
