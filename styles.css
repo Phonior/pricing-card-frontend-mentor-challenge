@@ -63,16 +63,16 @@ h2, h4, p {
 
 #price-container {
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
 }
 
 #price {
   font-weight: 700;
   font-size: 1.4rem;
-  display: inline-block;
 }
 
 #price-frequency {
-  display: inline-block;
   position: relative;
   top: -3px;
   font-size: 0.8rem;
