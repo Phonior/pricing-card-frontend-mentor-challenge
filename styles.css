@@ -32,28 +32,6 @@ h2, h4, p {
   padding: 25px;
 }
 
-#bottom-section {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 55%;
-}
-
-#bottom-left-section {
-  height: 100%;
-  vertical-align: top;
-  background-color: #2ab2af;
-  padding: 25px;
-}
-
-#bottom-right-section {
-  height: 100%;
-  vertical-align: top;
-  background-color: rgba(42, 178, 175, 0.8);
-  padding: 25px;
-}
-
 #top-section h2 {
   color: #2ab2af;
   margin-bottom: 20px;
@@ -66,6 +44,21 @@ h2, h4, p {
 
 #top-section p {
   color: #98a6bd;
+}
+
+#bottom-section {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 55%;
+}
+
+#bottom-left-section {
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 25px;
 }
 
 #price-container {
@@ -98,7 +91,7 @@ h2, h4, p {
 
 button {
   background-color: #c0df34;
-  color: white;
+  color: #ffffff;
   border: none;
   padding: 20px;
   width: 100%;
@@ -109,6 +102,13 @@ button:hover {
   cursor: pointer;
   background-color: #A9C42D;
   transform: scale(1.02);
+}
+
+#bottom-right-section {
+  height: 100%;
+  vertical-align: top;
+  background-color: rgba(42, 178, 175, 0.8);
+  padding: 25px;
 }
 
 ul {
